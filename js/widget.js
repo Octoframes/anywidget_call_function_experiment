@@ -1,4 +1,5 @@
 import "./widget.css";
+import helloWorld from "js_experiment_for_anywidget";
 
 export function render({ model, el }) {
 	let btn = document.createElement("button");
@@ -10,6 +11,7 @@ export function render({ model, el }) {
 	});
 	model.on("change:value", () => {
 		btn.innerHTML = `count is ${model.get("value")}`;
+		console.log(helloWorld())
 	});
 	el.appendChild(btn);
 }

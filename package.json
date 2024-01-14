@@ -3,7 +3,9 @@
 		"dev": "npm run build -- --sourcemap=inline --watch",
 		"build": "esbuild js/widget.js --minify --format=esm --bundle --outdir=src/anywidget_call_function_experiment/static"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"js_experiment_for_anywidget": "^0.0.1"
+	},
 	"devDependencies": {
 		"esbuild": "^0.19.5"
 	}
