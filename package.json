@@ -1,12 +1,9 @@
 {
-	"scripts": {
-		"dev": "npm run build -- --sourcemap=inline --watch",
-		"build": "esbuild js/widget.js --minify --format=esm --bundle --outdir=src/anywidget_call_function_experiment/static"
-	},
-	"devDependencies": {
-		"esbuild": "^0.19.5"
-	},
-	"dependencies": {
-		"js_experiment_for_anywidget": "^0.0.2"
-	}
+  "scripts": {
+    "dev": "npm run build -- --sourcemap=inline --watch",
+    "build": "esbuild js/widget.js --minify --format=esm --bundle --outdir=src/anywidget_call_function_experiment/static"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5"
+  }
 }

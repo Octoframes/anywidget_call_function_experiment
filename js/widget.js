@@ -1,8 +1,7 @@
 import "./widget.css";
-import helloWorld from "js_experiment_for_anywidget";
 
-function helloWorld2() {
-	return "hello world 2";
+function helloWorldX() {
+	return "hello world X";
 }
 
 
@@ -17,8 +16,7 @@ export function render({ model, el }) {
 	});
 	model.on("change:value", () => {
 		btn.innerHTML = `count is ${model.get("value")}`;
-		console.log(helloWorld())
-		console.log(helloWorld2())
+		console.log(helloWorldX())
 	});
 	el.appendChild(btn);
 }
